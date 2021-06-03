@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introduction to unwind
+title: Adding RISC-V support to `libunwind`
 ---
 
 While playing with a `qemu` virtual machine image of a Debian [RISC-V](http://riscv.org)
