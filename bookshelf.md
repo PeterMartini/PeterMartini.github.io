@@ -26,3 +26,18 @@ Various resources used to add RISC-V support for [libunwind](https://www.nongnu.
 * [RISC-V registers](https://en.wikichip.org/wiki/risc-v/registers) A short and handy reference page on RISC-V registers.  Not comprehensive; it details the 32 general purpose registers but doesn't mention floating point registers
 * [libunwind patch for AArch64 support](https://github.com/libunwind/libunwind/commit/ac6c0a6535975f1dc2da6e4e2766614baac2a14a#diff-44c9a8e487fd562ca0a78f2469deee6ca193e450bf03a83866aff7f590e9e494)
 * [Emulating RISC-V Debian on WSL2](https://blog.davidburela.com/2020/11/15/emulating-risc-v-debian-on-wsl2/)
+* [Building a RISC-V CPU from scratch](https://spectrum.ieee.org/geek-life/hands-on/build-a-riscv-cpu-from-scratch)
+* [The Apple M1 and RISC-V (lots of links on history and current status as well as a suggestion of RISC-V as the basis of a co-processor revolution)](https://erik-engheim.medium.com/apple-m1-foreshadows-risc-v-dd63a62b2562)
+
+## Neat Tweets
+
+* [6 interesting HTML attributes](https://twitter.com/Insharamin/status/1399621939480522755)
+* [Debugging mystery: the case of the 50ms request (understanding TCP)](https://twitter.com/b0rk/status/1390012478386577411)
+
+## Assorted Tools
+
+* [Get a Windows 10 Development Environment](https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/)
+
+## File Formats
+
+* [In which a PDF is a Git Repository Containing its own LaTeX Source and a Copy of Itself](https://github.com/ESultanik/PDFGitPolyglot)
