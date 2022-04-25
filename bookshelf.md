@@ -31,6 +31,7 @@ Various resources used to add RISC-V support for [libunwind](https://www.nongnu.
 * [Building a RISC-V CPU from scratch](https://spectrum.ieee.org/geek-life/hands-on/build-a-riscv-cpu-from-scratch)
 * [The Apple M1 and RISC-V (lots of links on history and current status as well as a suggestion of RISC-V as the basis of a co-processor revolution)](https://erik-engheim.medium.com/apple-m1-foreshadows-risc-v-dd63a62b2562)
 * [RISC-V from scratch 2: Hardware layouts, linker scripts, and C runtimes](https://twilco.github.io/riscv-from-scratch/2019/04/27/riscv-from-scratch-2.html)
+* [Transparently running binaries from any architecture in Linux with QEMU and binfmt_misc](https://ownyourbits.com/2018/06/13/transparently-running-binaries-from-any-architecture-in-linux-with-qemu-and-binfmt_misc)
 
 ## Neat Tweets
 
@@ -43,6 +44,9 @@ Various resources used to add RISC-V support for [libunwind](https://www.nongnu.
 
 * [A Basic Just-In-Time Compiler](https://nullprogram.com/blog/2015/03/19)
 * [JIT compiler and runtime for a toy language, using Cranelift](https://github.com/bytecodealliance/cranelift-jit-demo)
+* [A Complete Guide to LLVM for Programming Language Creators](https://mukulrathi.com/create-your-own-programming-language/llvm-ir-cpp-api-tutorial/)
+* [Linux x86 Program Start Up](http://dbp-consulting.com/tutorials/debugging/linuxProgramStartup.html)
+* [A Whirlwind Tutorial on Creating Really Teensy ELF Executables for Linux](http://muppetlabs.com/~breadbox/sotware/tiny/teensy.html)
 
 ## Firmware
 
@@ -52,10 +56,12 @@ Various resources used to add RISC-V support for [libunwind](https://www.nongnu.
 
 * [The rise of Layer 7, microservices, and the proxy war with Envoy, NGINX, and HAProxy](http://slideshare.net/datawire/the-rise-of-layer-7-microservices-and-the-proxy-war-with-envoy-nginx-and-haproxy)
 * [REST API Design Guide](https://github.com/NationalBankBelgium/REST-API-Design-Guide)
+* [Kubernetes and Networks - why is this so dang hard?](https://speakerdeck.com/thockin/kubernetes-and-networks-why-is-this-so-dang-hard)
 
 ## Debugging
 
 * [Debugging Incidents in Google's Distributed Systems](https://queue.acm.org/detail.cfm?id=3404974)
+* [Basic Assembler Debugging with GDB](https://dbp-consulting.com/tutorials/debugging/basicAsmDebuggingGDB.html)
 
 ## Assorted Tools
 
@@ -64,3 +70,7 @@ Various resources used to add RISC-V support for [libunwind](https://www.nongnu.
 ## File Formats
 
 * [In which a PDF is a Git Repository Containing its own LaTeX Source and a Copy of Itself](https://github.com/ESultanik/PDFGitPolyglot)
+
+## Reverse Engineering
+
+* [ROP Emporium - Learn return-oriented programming through a series of challenges](http://ropemporium.com)
