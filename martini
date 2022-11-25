@@ -1,0 +1,88 @@
+---
+layout: raw
+title: Webfinger
+permalink: /activitypub/martini
+---
+{
+  "@context": [
+    "https://www.w3.org/ns/activitystreams",
+    "https://w3id.org/security/v1",
+    {
+      "manuallyApprovesFollowers": "as:manuallyApprovesFollowers",
+      "toot": "http://joinmastodon.org/ns#",
+      "featured": {
+        "@id": "toot:featured",
+        "@type": "@id"
+      },
+      "featuredTags": {
+        "@id": "toot:featuredTags",
+        "@type": "@id"
+      },
+      "alsoKnownAs": {
+        "@id": "as:alsoKnownAs",
+        "@type": "@id"
+      },
+      "movedTo": {
+        "@id": "as:movedTo",
+        "@type": "@id"
+      },
+      "schema": "http://schema.org#",
+      "PropertyValue": "schema:PropertyValue",
+      "value": "schema:value",
+      "discoverable": "toot:discoverable",
+      "Device": "toot:Device",
+      "Ed25519Signature": "toot:Ed25519Signature",
+      "Ed25519Key": "toot:Ed25519Key",
+      "Curve25519Key": "toot:Curve25519Key",
+      "EncryptedMessage": "toot:EncryptedMessage",
+      "publicKeyBase64": "toot:publicKeyBase64",
+      "deviceId": "toot:deviceId",
+      "claim": {
+        "@type": "@id",
+        "@id": "toot:claim"
+      },
+      "fingerprintKey": {
+        "@type": "@id",
+        "@id": "toot:fingerprintKey"
+      },
+      "identityKey": {
+        "@type": "@id",
+        "@id": "toot:identityKey"
+      },
+      "devices": {
+        "@type": "@id",
+        "@id": "toot:devices"
+      },
+      "messageFranking": "toot:messageFranking",
+      "messageType": "toot:messageType",
+      "cipherText": "toot:cipherText",
+      "suspended": "toot:suspended"
+    }
+  ],
+  "id": "https://infosec.exchange/users/martini",
+  "type": "Person",
+  "following": "https://infosec.exchange/users/martini/following",
+  "followers": "https://infosec.exchange/users/martini/followers",
+  "inbox": "https://pcmartini.com/activitypub/inbox",
+  "outbox": "https://pcmartini.com/activitypub/outbox",
+  "featured": "https://infosec.exchange/users/martini/collections/featured",
+  "featuredTags": "https://infosec.exchange/users/martini/collections/tags",
+  "preferredUsername": "martini",
+  "name": "",
+  "summary": "",
+  "url": "https://pcmartini.com/@martini",
+  "manuallyApprovesFollowers": false,
+  "discoverable": false,
+  "published": "2022-11-05T00:00:00Z",
+  "devices": "https://infosec.exchange/users/martini/collections/devices",
+  "publicKey": {
+    "id": "https://infosec.exchange/users/martini#main-key",
+    "owner": "https://infosec.exchange/users/martini",
+    "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4/fYyKK3dLqsWhgx/zXj\nhNy9z1S/9OFd5QUAfbuH6aprOW7HQ8yjUehgT6OF6Ye7E98HuTIhSALwWH+nT0Z0\ns7W5RE39oXe3LU+cfp+LwoLCbhew1gP6w34lEdIVfspX6cDkJGGVUuXVJDj5Wr/N\n7QWUV7khDYHcrwhFfSwwMAAEIsP2gUwR3vj3/Y/t1v57g1gCge2SRaUqJBWxrRAS\nJ13rHD7g1CBXnNhLCtoicni18RwcQlv2S87HPSH1gVNthrbbQazNhdvM/Ihw1HzO\nuzdxgwDh+cWixqk+ja7k4v0OtDC56anS4ifjXOchj0KGgw/EU+IInpToSDqV4OE9\nSwIDAQAB\n-----END PUBLIC KEY-----\n"
+  },
+  "tag": [],
+  "attachment": [],
+  "endpoints": {
+    "sharedInbox": "https://infosec.exchange/inbox"
+  }
+}

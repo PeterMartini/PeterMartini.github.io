@@ -1,0 +1,24 @@
+---
+layout: raw
+title: Webfinger
+permalink: /.well-known/webfinger
+---
+{
+  "subject": "acct:martini@pcmartini.com",
+  "aliases": [
+    "https://infosec.exchange/@martini",
+    "https://infosec.exchange/users/martini"
+  ],
+  "links": [
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://pcmartini.com"
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://pcmartini.com/activitypub/martini"
+    }
+  ]
+}

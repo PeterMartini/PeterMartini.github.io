@@ -1,0 +1,395 @@
+---
+layout: raw
+title: Outbox
+permalink: /activitypub/outbox
+---
+{
+  "@context": [
+    "https://www.w3.org/ns/activitystreams",
+    {
+      "ostatus": "http://ostatus.org#",
+      "atomUri": "ostatus:atomUri",
+      "inReplyToAtomUri": "ostatus:inReplyToAtomUri",
+      "conversation": "ostatus:conversation",
+      "sensitive": "as:sensitive",
+      "toot": "http://joinmastodon.org/ns#",
+      "votersCount": "toot:votersCount",
+      "litepub": "http://litepub.social/ns#",
+      "directMessage": "litepub:directMessage"
+    }
+  ],
+  "id": "https://pcmartini.com/activitypub/martini/outbox",
+  "type": "OrderedCollection",
+  "orderedItems": [
+    {
+      "id": "https://pcmartini.com/activitypub/martini/statuses/109402413833462417/activity",
+      "type": "Announce",
+      "actor": "https://pcmartini.com/activitypub/martini",
+      "published": "2022-11-25T03:52:35Z",
+      "to": [
+        "https://www.w3.org/ns/activitystreams#Public"
+      ],
+      "cc": [
+        "https://mastodon.social/users/mcc",
+        "https://pcmartini.com/activitypub/martini/followers"
+      ],
+      "object": "https://mastodon.social/users/mcc/statuses/109402331405888755"
+    },
+    {
+      "id": "https://pcmartini.com/activitypub/martini/statuses/109395076510097589/activity",
+      "type": "Announce",
+      "actor": "https://pcmartini.com/activitypub/martini",
+      "published": "2022-11-23T20:46:36Z",
+      "to": [
+        "https://www.w3.org/ns/activitystreams#Public"
+      ],
+      "cc": [
+        "https://pcmartini.com/activitypub/castillar",
+        "https://pcmartini.com/activitypub/martini/followers"
+      ],
+      "object": "https://pcmartini.com/activitypub/castillar/statuses/109394490005055932"
+    },
+    {
+      "id": "https://pcmartini.com/activitypub/martini/statuses/109350738774837329/activity",
+      "type": "Create",
+      "actor": "https://pcmartini.com/activitypub/martini",
+      "published": "2022-11-16T00:50:56Z",
+      "to": [
+        "https://www.w3.org/ns/activitystreams#Public"
+      ],
+      "cc": [
+        "https://pcmartini.com/activitypub/martini/followers",
+        "https://pcmartini.com/activitypub/bbaugh"
+      ],
+      "object": {
+        "id": "https://pcmartini.com/activitypub/martini/statuses/109350738774837329",
+        "type": "Note",
+        "summary": null,
+        "inReplyTo": "https://pcmartini.com/activitypub/bbaugh/statuses/109350706349344452",
+        "published": "2022-11-16T00:50:56Z",
+        "url": "https://infosec.exchange/@martini/109350738774837329",
+        "attributedTo": "https://pcmartini.com/activitypub/martini",
+        "to": [
+          "https://www.w3.org/ns/activitystreams#Public"
+        ],
+        "cc": [
+          "https://pcmartini.com/activitypub/martini/followers",
+          "https://pcmartini.com/activitypub/bbaugh"
+        ],
+        "sensitive": false,
+        "atomUri": "https://pcmartini.com/activitypub/martini/statuses/109350738774837329",
+        "inReplyToAtomUri": "https://pcmartini.com/activitypub/bbaugh/statuses/109350706349344452",
+        "conversation": "tag:infosec.exchange,2022-11-16:objectId=21767202:objectType=Conversation",
+        "content": "<p><span class=\"h-card\"><a href=\"https://infosec.exchange/@bbaugh\" class=\"u-url mention\">@<span>bbaugh</span></a></span> I’ not sure if I was clear - I don’t want to get an RSS feed from Mastodon, I want my personal blog to function as a read only mastodon instance (and since its my blog, it’d always be one user).  But if other news/blogging platforms could do this too, hey, now I don’t want RSS at all any more</p>",
+        "contentMap": {
+          "en": "<p><span class=\"h-card\"><a href=\"https://infosec.exchange/@bbaugh\" class=\"u-url mention\">@<span>bbaugh</span></a></span> I’ not sure if I was clear - I don’t want to get an RSS feed from Mastodon, I want my personal blog to function as a read only mastodon instance (and since its my blog, it’d always be one user).  But if other news/blogging platforms could do this too, hey, now I don’t want RSS at all any more</p>"
+        },
+        "attachment": [],
+        "tag": [
+          {
+            "type": "Mention",
+            "href": "https://pcmartini.com/activitypub/bbaugh",
+            "name": "@bbaugh"
+          }
+        ],
+        "replies": {
+          "id": "https://pcmartini.com/activitypub/martini/statuses/109350738774837329/replies",
+          "type": "Collection",
+          "first": {
+            "type": "CollectionPage",
+            "next": "https://pcmartini.com/activitypub/martini/statuses/109350738774837329/replies?only_other_accounts=true&page=true",
+            "partOf": "https://pcmartini.com/activitypub/martini/statuses/109350738774837329/replies",
+            "items": []
+          }
+        }
+      }
+    },
+    {
+      "id": "https://pcmartini.com/activitypub/martini/statuses/109350691959915908/activity",
+      "type": "Create",
+      "actor": "https://pcmartini.com/activitypub/martini",
+      "published": "2022-11-16T00:39:02Z",
+      "to": [
+        "https://www.w3.org/ns/activitystreams#Public"
+      ],
+      "cc": [
+        "https://pcmartini.com/activitypub/martini/followers"
+      ],
+      "object": {
+        "id": "https://pcmartini.com/activitypub/martini/statuses/109350691959915908",
+        "type": "Note",
+        "summary": null,
+        "inReplyTo": null,
+        "published": "2022-11-16T00:39:02Z",
+        "url": "https://infosec.exchange/@martini/109350691959915908",
+        "attributedTo": "https://pcmartini.com/activitypub/martini",
+        "to": [
+          "https://www.w3.org/ns/activitystreams#Public"
+        ],
+        "cc": [
+          "https://pcmartini.com/activitypub/martini/followers"
+        ],
+        "sensitive": false,
+        "atomUri": "https://pcmartini.com/activitypub/martini/statuses/109350691959915908",
+        "inReplyToAtomUri": null,
+        "conversation": "tag:infosec.exchange,2022-11-16:objectId=21767202:objectType=Conversation",
+        "content": "<p>Can a static site generator act as a readonly ActivityPub server by hosting the right files at the right locations?  It’d be neat if I could use Mastodon as my RSS reader</p>",
+        "contentMap": {
+          "en": "<p>Can a static site generator act as a readonly ActivityPub server by hosting the right files at the right locations?  It’d be neat if I could use Mastodon as my RSS reader</p>"
+        },
+        "attachment": [],
+        "tag": [],
+        "replies": {
+          "id": "https://pcmartini.com/activitypub/martini/statuses/109350691959915908/replies",
+          "type": "Collection",
+          "first": {
+            "type": "CollectionPage",
+            "next": "https://pcmartini.com/activitypub/martini/statuses/109350691959915908/replies?only_other_accounts=true&page=true",
+            "partOf": "https://pcmartini.com/activitypub/martini/statuses/109350691959915908/replies",
+            "items": []
+          }
+        }
+      }
+    },
+    {
+      "id": "https://pcmartini.com/activitypub/martini/statuses/109344771576514576/activity",
+      "type": "Announce",
+      "actor": "https://pcmartini.com/activitypub/martini",
+      "published": "2022-11-14T23:33:24Z",
+      "to": [
+        "https://www.w3.org/ns/activitystreams#Public"
+      ],
+      "cc": [
+        "https://mastodon.social/users/MicroSFF",
+        "https://pcmartini.com/activitypub/martini/followers"
+      ],
+      "object": "https://mastodon.social/users/MicroSFF/statuses/109344292763387699"
+    },
+    {
+      "id": "https://pcmartini.com/activitypub/martini/statuses/109322428247353576/activity",
+      "type": "Create",
+      "actor": "https://pcmartini.com/activitypub/martini",
+      "published": "2022-11-11T00:51:12Z",
+      "to": [
+        "https://www.w3.org/ns/activitystreams#Public"
+      ],
+      "cc": [
+        "https://pcmartini.com/activitypub/martini/followers",
+        "https://mastodon.social/users/kennwhite",
+        "https://octodon.social/users/hypatia"
+      ],
+      "object": {
+        "id": "https://pcmartini.com/activitypub/martini/statuses/109322428247353576",
+        "type": "Note",
+        "summary": "Bird site security & privacy news",
+        "inReplyTo": "https://mastodon.social/users/kennwhite/statuses/109320733656546548",
+        "published": "2022-11-11T00:51:12Z",
+        "url": "https://infosec.exchange/@martini/109322428247353576",
+        "attributedTo": "https://pcmartini.com/activitypub/martini",
+        "to": [
+          "https://www.w3.org/ns/activitystreams#Public"
+        ],
+        "cc": [
+          "https://pcmartini.com/activitypub/martini/followers",
+          "https://mastodon.social/users/kennwhite",
+          "https://octodon.social/users/hypatia"
+        ],
+        "sensitive": true,
+        "atomUri": "https://pcmartini.com/activitypub/martini/statuses/109322428247353576",
+        "inReplyToAtomUri": "https://mastodon.social/users/kennwhite/statuses/109320733656546548",
+        "conversation": "tag:octodon.social,2022-11-10:objectId=94555251:objectType=Conversation",
+        "content": "<p><span class=\"h-card\"><a href=\"https://mastodon.social/@kennwhite\" class=\"u-url mention\">@<span>kennwhite</span></a></span> <span class=\"h-card\"><a href=\"https://octodon.social/@hypatia\" class=\"u-url mention\">@<span>hypatia</span></a></span> seeing that from a lawyer blew my mind!</p>",
+        "contentMap": {
+          "en": "<p><span class=\"h-card\"><a href=\"https://mastodon.social/@kennwhite\" class=\"u-url mention\">@<span>kennwhite</span></a></span> <span class=\"h-card\"><a href=\"https://octodon.social/@hypatia\" class=\"u-url mention\">@<span>hypatia</span></a></span> seeing that from a lawyer blew my mind!</p>"
+        },
+        "attachment": [],
+        "tag": [
+          {
+            "type": "Mention",
+            "href": "https://mastodon.social/users/kennwhite",
+            "name": "@kennwhite@mastodon.social"
+          },
+          {
+            "type": "Mention",
+            "href": "https://octodon.social/users/hypatia",
+            "name": "@hypatia@octodon.social"
+          }
+        ],
+        "replies": {
+          "id": "https://pcmartini.com/activitypub/martini/statuses/109322428247353576/replies",
+          "type": "Collection",
+          "first": {
+            "type": "CollectionPage",
+            "next": "https://pcmartini.com/activitypub/martini/statuses/109322428247353576/replies?only_other_accounts=true&page=true",
+            "partOf": "https://pcmartini.com/activitypub/martini/statuses/109322428247353576/replies",
+            "items": []
+          }
+        }
+      }
+    },
+    {
+      "id": "https://pcmartini.com/activitypub/martini/statuses/109322313095046658/activity",
+      "type": "Announce",
+      "actor": "https://pcmartini.com/activitypub/martini",
+      "published": "2022-11-11T00:21:55Z",
+      "to": [
+        "https://www.w3.org/ns/activitystreams#Public"
+      ],
+      "cc": [
+        "https://chaos.social/users/blinry",
+        "https://pcmartini.com/activitypub/martini/followers"
+      ],
+      "object": "tag:chaos.social,2017-04-16:objectId=10318:objectType=Status"
+    },
+    {
+      "id": "https://pcmartini.com/activitypub/martini/statuses/109322231303751826/activity",
+      "type": "Create",
+      "actor": "https://pcmartini.com/activitypub/martini",
+      "published": "2022-11-11T00:01:07Z",
+      "to": [
+        "https://www.w3.org/ns/activitystreams#Public"
+      ],
+      "cc": [
+        "https://pcmartini.com/activitypub/martini/followers"
+      ],
+      "object": {
+        "id": "https://pcmartini.com/activitypub/martini/statuses/109322231303751826",
+        "type": "Note",
+        "summary": "Twitter v Mastodon",
+        "inReplyTo": null,
+        "published": "2022-11-11T00:01:07Z",
+        "url": "https://infosec.exchange/@martini/109322231303751826",
+        "attributedTo": "https://pcmartini.com/activitypub/martini",
+        "to": [
+          "https://www.w3.org/ns/activitystreams#Public"
+        ],
+        "cc": [
+          "https://pcmartini.com/activitypub/martini/followers"
+        ],
+        "sensitive": true,
+        "atomUri": "https://pcmartini.com/activitypub/martini/statuses/109322231303751826",
+        "inReplyToAtomUri": null,
+        "conversation": "tag:infosec.exchange,2022-11-11:objectId=20821097:objectType=Conversation",
+        "content": "<p>I wonder if we’ll be able to measure financial support for the people running these mastodon servers and compare them to Twitter Blue revenue?  It would be beautiful if mastadon becomes comparable</p>",
+        "contentMap": {
+          "en": "<p>I wonder if we’ll be able to measure financial support for the people running these mastodon servers and compare them to Twitter Blue revenue?  It would be beautiful if mastadon becomes comparable</p>"
+        },
+        "attachment": [],
+        "tag": [],
+        "replies": {
+          "id": "https://pcmartini.com/activitypub/martini/statuses/109322231303751826/replies",
+          "type": "Collection",
+          "first": {
+            "type": "CollectionPage",
+            "next": "https://pcmartini.com/activitypub/martini/statuses/109322231303751826/replies?only_other_accounts=true&page=true",
+            "partOf": "https://pcmartini.com/activitypub/martini/statuses/109322231303751826/replies",
+            "items": []
+          }
+        }
+      }
+    },
+    {
+      "id": "https://pcmartini.com/activitypub/martini/statuses/109310859481592523/activity",
+      "type": "Announce",
+      "actor": "https://pcmartini.com/activitypub/martini",
+      "published": "2022-11-08T23:49:07Z",
+      "to": [
+        "https://www.w3.org/ns/activitystreams#Public"
+      ],
+      "cc": [
+        "https://octodon.social/users/cwebber",
+        "https://pcmartini.com/activitypub/martini/followers"
+      ],
+      "object": "https://octodon.social/users/cwebber/statuses/109307940669755800"
+    },
+    {
+      "id": "https://pcmartini.com/activitypub/martini/statuses/109307502125303343/activity",
+      "type": "Announce",
+      "actor": "https://pcmartini.com/activitypub/martini",
+      "published": "2022-11-08T09:35:17Z",
+      "to": [
+        "https://www.w3.org/ns/activitystreams#Public"
+      ],
+      "cc": [
+        "https://mastodon.social/users/ilyaz",
+        "https://pcmartini.com/activitypub/martini/followers"
+      ],
+      "object": "https://mastodon.social/users/ilyaz/statuses/109304480813529194"
+    },
+    {
+      "id": "https://pcmartini.com/activitypub/martini/statuses/109306439864262931/activity",
+      "type": "Announce",
+      "actor": "https://pcmartini.com/activitypub/martini",
+      "published": "2022-11-08T05:05:09Z",
+      "to": [
+        "https://www.w3.org/ns/activitystreams#Public"
+      ],
+      "cc": [
+        "https://mstdn.social/users/feditips",
+        "https://pcmartini.com/activitypub/martini/followers"
+      ],
+      "object": "https://mstdn.social/users/feditips/statuses/109304162783897664"
+    },
+    {
+      "id": "https://pcmartini.com/activitypub/martini/statuses/109299038405137822/activity",
+      "type": "Announce",
+      "actor": "https://pcmartini.com/activitypub/martini",
+      "published": "2022-11-06T21:42:51Z",
+      "to": [
+        "https://www.w3.org/ns/activitystreams#Public"
+      ],
+      "cc": [
+        "https://pcmartini.com/activitypub/jerry",
+        "https://pcmartini.com/activitypub/martini/followers"
+      ],
+      "object": "https://pcmartini.com/activitypub/jerry/statuses/101767036616676231"
+    },
+    {
+      "id": "https://pcmartini.com/activitypub/martini/statuses/109291059555359254/activity",
+      "type": "Create",
+      "actor": "https://pcmartini.com/activitypub/martini",
+      "published": "2022-11-05T11:53:44Z",
+      "to": [
+        "https://www.w3.org/ns/activitystreams#Public"
+      ],
+      "cc": [
+        "https://pcmartini.com/activitypub/martini/followers"
+      ],
+      "object": {
+        "id": "https://pcmartini.com/activitypub/martini/statuses/109291059555359254",
+        "type": "Note",
+        "summary": null,
+        "inReplyTo": null,
+        "published": "2022-11-05T11:53:44Z",
+        "url": "https://infosec.exchange/@martini/109291059555359254",
+        "attributedTo": "https://pcmartini.com/activitypub/martini",
+        "to": [
+          "https://www.w3.org/ns/activitystreams#Public"
+        ],
+        "cc": [
+          "https://pcmartini.com/activitypub/martini/followers"
+        ],
+        "sensitive": false,
+        "atomUri": "https://pcmartini.com/activitypub/martini/statuses/109291059555359254",
+        "inReplyToAtomUri": null,
+        "conversation": "tag:infosec.exchange,2022-11-05:objectId=20037279:objectType=Conversation",
+        "content": "<p>Trying out Mastodon.  I’m PeterCMartini on Twitter.  I’m mostly interested in programming languages in general, still have friends in the Perl community in particular, and spend most of my compsci energy these days on low level code that make up containers or levels lower than that</p>",
+        "contentMap": {
+          "en": "<p>Trying out Mastodon.  I’m PeterCMartini on Twitter.  I’m mostly interested in programming languages in general, still have friends in the Perl community in particular, and spend most of my compsci energy these days on low level code that make up containers or levels lower than that</p>"
+        },
+        "attachment": [],
+        "tag": [],
+        "replies": {
+          "id": "https://pcmartini.com/activitypub/martini/statuses/109291059555359254/replies",
+          "type": "Collection",
+          "first": {
+            "type": "CollectionPage",
+            "next": "https://pcmartini.com/activitypub/martini/statuses/109291059555359254/replies?only_other_accounts=true&page=true",
+            "partOf": "https://pcmartini.com/activitypub/martini/statuses/109291059555359254/replies",
+            "items": []
+          }
+        }
+      }
+    }
+  ]
+}
